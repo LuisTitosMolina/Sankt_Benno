@@ -436,6 +436,6 @@ document.addEventListener('DOMContentLoaded', function() {
 // ===========================
 // Console Message
 // ===========================
-console.log('%c🏖️ AWO SANO Website', 'font-size: 20px; font-weight: bold; color: #00A651;');
-console.log('%cWillkommen auf der AWO SANO Website!', 'font-size: 14px; color: #333;');
-console.log('%cFamilienurlaub in Deutschland günstig erleben', 'font-size: 12px; color: #666;');
+console.log('%c🏖️ Sankt Beno Website', 'font-size: 20px; font-weight: bold; color: #00A651;');
+console.log('%cWillkommen auf der Sankt Beno Website!', 'font-size: 14px; color: #333;');
+console.log('%cBad Lauterberg im Harz günstig erleben', 'font-size: 12px; color: #666;');
