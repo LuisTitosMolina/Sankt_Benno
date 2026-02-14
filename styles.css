@@ -112,6 +112,51 @@ ul {
     gap: var(--spacing-md);
 }
 
+.menu-desplegable {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item:hover .menu-desplegable {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-desplegable li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-desplegable li a {
+    display: block;
+    padding: 12px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.menu-desplegable li a:hover {
+    background-color: #00A651;
+    color: white;
+}
+
 .nav-item a {
     display: flex;
     align-items: center;
