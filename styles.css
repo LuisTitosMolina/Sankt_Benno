@@ -254,9 +254,11 @@ ul {
    Hero Slider
    =========================== */
 .hero-slider {
-    position: relative;
+    position: sticky;
+    top: 0;
     height: 500px;
     overflow: hidden;
+    z-index: 1;
 }
 
 .slide {
@@ -712,6 +714,8 @@ ul {
     background-color: var(--dark-color);
     color: var(--white);
     padding: var(--spacing-xl) var(--spacing-md) var(--spacing-md);
+    position: relative;
+    z-index: 2;
 }
 
 .footer-grid {
