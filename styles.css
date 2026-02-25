@@ -683,28 +683,25 @@ ul {
     color: var(--primary-color);
 }
 
-/* ===========================
-   Newsletter Section
-   =========================== */
-.newsletter-section {
-    padding: var(--spacing-xl) var(--spacing-md);
-    background: linear-gradient(135deg, var(--primary-color), #008a44);
-    color: var(--white);
+/*=========================
+    Sección de Kontakt
+ ========================== */
+.kontakt{
+    background-color: #fffbea;
     text-align: center;
+    position: relative;
+    z-index: 3;
 }
-
-.newsletter-section h2 {
-    font-size: var(--font-size-xxl);
-    margin-bottom: var(--spacing-md);
+.kontakt h1{
+    padding-top: 35px;
+    
 }
-
-.newsletter-section .btn-primary {
-    background-color: var(--white);
-    color: var(--primary-color);
+#name{
+    padding-top: 15px;
 }
-
-.newsletter-section .btn-primary:hover {
-    background-color: var(--light-gray);
+#correo{
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 /* ===========================
