@@ -110,6 +110,7 @@ ul {
 .main-nav {
     display: flex;
     gap: var(--spacing-md);
+    align-items: center;
 }
 
 .menu-desplegable {
@@ -173,6 +174,7 @@ ul {
 .nav-item img {
     width: 40px;
     height: 40px;
+    object-fit: cover;
 }
 
 .nav-item span {
