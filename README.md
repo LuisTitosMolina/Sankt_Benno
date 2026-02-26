@@ -60,38 +60,6 @@ Este paquete contiene el código HTML, CSS y JavaScript para la página web de S
 - Optimización de animaciones
 - CSS minimalista y eficiente
 
-## Notas Importantes
-
-1. **Imágenes**: Las rutas de las imágenes están copiadas del sitio original. Para usar este código en producción, necesitarás:
-   - Descargar las imágenes del sitio original
-   - Actualizar las rutas en el HTML
-   - O usar tus propias imágenes
-
-2. **Contenido**: El contenido está en alemán, tal como aparece en el sitio original.
-
-3. **Funcionalidad**: Algunas funcionalidades que requieren backend no están implementadas:
-   - Sistema de reservas
-   - Base de datos de destinos
-   - Procesamiento de formularios
-   - Sistema de autenticación
-
-4. **Optimizaciones Posibles**:
-   - Minificar CSS y JavaScript para producción
-   - Implementar un sistema de caché
-   - Añadir Service Workers para PWA
-   - Comprimir imágenes
-   - Añadir un sistema de gestión de contenido (CMS)
-
-## Estructura de Colores
-
-```css
-/* Colores principales */
---primary-color: #00A651;    /* Verde AWO SANO */
---secondary-color: #E30613;  /* Rojo */
---dark-color: #333;          /* Texto oscuro */
---light-gray: #f5f5f5;       /* Fondo gris claro */
---white: #ffffff;            /* Blanco */
-```
 
 ## Uso
 
@@ -124,7 +92,3 @@ Este paquete contiene el código HTML, CSS y JavaScript para la página web de S
 4. **PWA**: Convertir en Progressive Web App
 5. **Internacionalización**: Sistema multi-idioma
 6. **Analytics**: Integrar Google Analytics o similar
-
----
-
-**Nota**: Este es un código aproximado basado en el análisis del sitio web. Para obtener el código exacto del sitio original, necesitarías acceso directo a su repositorio o servidor.
