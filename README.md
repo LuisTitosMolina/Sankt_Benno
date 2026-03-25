@@ -1,4 +1,4 @@
-# AWO SANO - Código Aproximado de la Página Web
+# Sankt Benno - Código Aproximado de la Página Web
 
 Este paquete contiene el código HTML, CSS y JavaScript para la página web de Sankt Beno.
 ## Archivos Incluidos
@@ -15,7 +15,6 @@ Este paquete contiene el código HTML, CSS y JavaScript para la página web de S
   - Footer con enlaces y contacto
 
 ### 2. styles.css
-- Diseño moderno y responsive
 - Variables CSS para fácil personalización
 - Colores principales:
   - Verde primario: #00A651
@@ -37,10 +36,7 @@ Este paquete contiene el código HTML, CSS y JavaScript para la página web de S
 
 ## Características Principales
 
-### Diseño Responsive
-- Adaptable a móviles, tablets y escritorio
-- Menú hamburguesa en dispositivos móviles
-- Grid flexible para tarjetas y contenido
+
 
 ### Accesibilidad
 - Navegación con teclado
@@ -67,20 +63,12 @@ Este paquete contiene el código HTML, CSS y JavaScript para la página web de S
 2. Asegúrate de que los archivos CSS y JS estén en la misma carpeta
 3. Para desarrollo, usa un servidor local (por ejemplo, Live Server de VS Code)
 
-## Compatibilidad
 
-- Chrome/Edge: ✅
-- Firefox: ✅
-- Safari: ✅
-- Opera: ✅
-- IE11: ⚠️ (Funcionalidad limitada)
 
 ## Tecnologías Utilizadas
 
 - HTML5 semántico
-- CSS3 con Grid y Flexbox
 - JavaScript ES6+
-- Intersection Observer API
 - CSS Variables
 - CSS Transitions y Animations
 
