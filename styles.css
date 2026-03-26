@@ -588,14 +588,15 @@ ul {
     text-align: center;
     margin-bottom: 3rem;
     margin-top:1.5rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
 
 }
 .titulo {
     text-align: center;
     margin-top: 2rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 .ausschluss{
     text-align: center;
@@ -606,4 +607,11 @@ ul {
     color: rgb(64, 117, 193, 1);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 3rem;
+}
+#datenschutz {
+    text-align: center;
+    color: rgb(64, 117, 193, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    text-transform: uppercase;
 }
