@@ -27,7 +27,7 @@
     /* Typography */
     --font-family: 'Arial', 'Helvetica', sans-serif;
     --font-size-base: 16px;
-    --font-size-sm: 14px;
+    --font-size-sm: 1.2rem;
     --font-size-lg: 18px;
     --font-size-xl: 24px;
     --font-size-xxl: 32px;
@@ -614,4 +614,33 @@ ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 3rem;
     text-transform: uppercase;
+}
+.Inhal_Anfrage {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    
+}
+.columna {
+    flex: 1;
+    align-items: center;
+}
+.columna h1{
+    text-align: center;
+    font-size: 2em;
+}
+.columna p {
+    text-align:center;
+    font-size: 1.2em;
+    
+}
+.cabecero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(239, 232, 194, 1);
+}
+.cabecero h3 {
+    font-size: 1.5em;
 }
