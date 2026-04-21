@@ -581,12 +581,28 @@ ul {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
 }
+
+.inhalt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .parrafo_corto{
     text-align: center;
+    font-size: 1.2rem;
 }
 .parrafo {
-    text-align: center;
-    margin-bottom: 3rem;
+    text-align: justify;
+    hyphens: auto;
+
+    /*Tipografía tipo libro */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    text-indent: 1.5em;
+    max-width: 85ch;
+
+    margin-bottom: 2rem;
     margin-top:1.5rem;
     margin-right: 4rem;
     margin-left: 4rem;
@@ -615,7 +631,7 @@ ul {
     margin-top: 3rem;
     text-transform: uppercase;
 }
-.Inhal {
+.inhalt {
     display: flex;
     gap: 40px;
     margin-bottom: 1.5rem;
@@ -643,4 +659,18 @@ ul {
 }
 .cabecero h3 {
     font-size: 1.5em;
+}
+.aktuelles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efefef;
+}
+.aktuelles h1 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.aktuelles img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
