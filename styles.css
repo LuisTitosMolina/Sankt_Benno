@@ -660,6 +660,12 @@ ul {
 .cabecero h3 {
     font-size: 1.5em;
 }
+#anfragen{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
 .aktuelles{
     display: flex;
     flex-direction: column;
