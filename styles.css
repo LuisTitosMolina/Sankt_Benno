@@ -600,7 +600,7 @@ ul {
     font-size: 1.2rem;
     line-height: 1.7;
     text-indent: 1.5em;
-    max-width: 85ch;
+    max-width: 95ch;
 
     margin-bottom: 2rem;
     margin-top:1.5rem;
@@ -679,4 +679,16 @@ ul {
 .aktuelles img {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+#ueber_uns{
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:antiquewhite;
+}
+
+#ueber_uns h1{
+    margin-top: 2rem;
 }
