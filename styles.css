@@ -584,7 +584,7 @@ ul {
 
 .inhalt {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 35px;
     background-color:antiquewhite;
     padding-bottom: 1.5rem;
@@ -638,6 +638,7 @@ ul {
 .columna {
     flex: 1;
     align-items: center;
+    padding-top: 1.5rem;
 }
 .columna h1{
     text-align: center;
