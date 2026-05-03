@@ -590,6 +590,21 @@ ul {
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
 }
+.columna {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+.columna h1{
+    text-align: center;
+    font-size: 2em;
+}
+.columna p {
+    text-align:center;
+    font-size: 1.2em;
+    
+}
 .parrafo_corto{
     text-align: center;
     font-size: 1.2rem;
@@ -635,20 +650,6 @@ ul {
     text-transform: uppercase;
 }
 
-.columna {
-    flex: 1;
-    align-items: center;
-    padding-top: 1.5rem;
-}
-.columna h1{
-    text-align: center;
-    font-size: 2em;
-}
-.columna p {
-    text-align:center;
-    font-size: 1.2em;
-    
-}
 .cabecero {
     display: flex;
     flex-direction: column;
