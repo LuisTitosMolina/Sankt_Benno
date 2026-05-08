@@ -572,9 +572,14 @@ ul {
     }
 }
 
+#inhalt_impressum{
+    
+    justify-content: center;  /* centra horizontalmente */
+}
 
 #impressum {
     text-align:center;
+    align-items: center;
     color: rgb(64, 117, 193, 1);
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -582,6 +587,25 @@ ul {
     margin-bottom: 0.5rem;
 }
 
+.parrafo_impressum{
+    text-align: center;
+    
+    /*Tipografía tipo libro */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    text-indent: 1.5em;
+    max-width: 95ch;
+
+    margin-bottom: 2rem;
+    margin-top:1.5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+}
+#inhalt_datenschutz{
+    /*background-color:antiquewhite;*/
+}
 .inhalt {
     display: flex;
     align-items: flex-start;
@@ -692,7 +716,7 @@ ul {
     margin-top: 2rem;
 }
 
-.contenido {
+.impressumenido {
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -701,12 +725,12 @@ ul {
     padding-bottom: 2.5rem;
 }
 
-.contenido p
+.impressumenido p
 {
     font-size: 1.3rem;
 
 }
-.contenido h1 {
+.impressumenido h1 {
     padding-bottom: 1.3rem;
     font-size: 2.5rem;
 }
