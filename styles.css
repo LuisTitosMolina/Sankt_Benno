@@ -589,6 +589,7 @@ ul {
 
 .parrafo_impressum{
     text-align: center;
+    margin: 0 auto;
     
     /*Tipografía tipo libro */
     font-family: Georgia, 'Times New Roman', Times, serif;
